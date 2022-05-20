@@ -1,0 +1,133 @@
+@fontcolortitle: rgb(49, 49, 49);
+@fontcolorcontent: rgb(82, 82, 82);
+
+.hr() {
+    hr {
+        border: 1px solid rgb(49, 49, 49);
+    }
+}
+
+* {
+    font-family: Helvetica Neue, Helvetica, Arial, Microsoft Yahei, Hiragino Sans GB, Heiti SC, WenQuanYi Micro Hei, sans-serif;
+    box-sizing: border-box;
+}
+
+.headInfo {
+    display: flex;
+    justify-content: space-between;
+    height: 160px;
+    align-items: center;
+
+    .line1,
+    .line2 {
+        div {
+            padding: 10px 0;
+            color: @fontcolorcontent;
+        }
+    }
+
+    .avatar {
+        img {
+            width: 110px;
+            height: 150px;
+        }
+    }
+
+    .ptext {
+        font-weight: 600;
+        color: @fontcolortitle ;
+        vertical-align:bottom;
+    }
+}
+
+.course {
+    padding-bottom: 20px;
+
+    .courseTitle {
+        span {
+            color: @fontcolortitle;
+            font-weight: 600;
+        }
+    }
+
+    .hr();
+
+    .school {
+        width: 600px;
+        display: flex;
+        justify-content: space-between;
+
+        span {
+            //margin-right: 140px;
+            color: @fontcolortitle;
+            font-weight: 600;
+        }
+    }
+}
+
+.skill {
+    .skillTitle {
+        span {
+            font-weight: 600;
+            color: @fontcolortitle;
+        }
+    }
+
+    .hr();
+
+    ol {
+        li {
+            margin-bottom: 5px;
+            color: @fontcolorcontent;
+        }
+    }
+}
+
+.project {
+    .projectTitle {
+        span {
+            color: @fontcolortitle;
+            font-weight: 600;
+        }
+    }
+
+    hr {
+        border: 1px solid #000;
+    }
+
+    .time {
+        width: 600px;
+        display: flex;
+        justify-content: space-between;
+
+        span {
+            //margin-right: 140px;
+            color: @fontcolortitle;
+            font-weight: 600;
+        }
+    }
+
+    .content {
+        color: @fontcolorcontent;
+
+        p {
+            margin: 3px;
+        }
+
+        ul {
+            margin-top: 3px;
+
+            li {}
+        }
+    }
+}
+
+.practice{
+    .practiceTitle{
+        span {
+            font-weight: 600;
+            color: @fontcolortitle;
+        }
+    }
+    .hr();
+}

@@ -1,0 +1,86 @@
+* {
+  font-family: Helvetica Neue, Helvetica, Arial, Microsoft Yahei, Hiragino Sans GB, Heiti SC, WenQuanYi Micro Hei, sans-serif;
+  box-sizing: border-box;
+}
+.headInfo {
+  display: flex;
+  justify-content: space-between;
+  height: 160px;
+  align-items: center;
+}
+.headInfo .line1 div,
+.headInfo .line2 div {
+  padding: 10px 0;
+  color: #525252;
+}
+.headInfo .avatar img {
+  width: 110px;
+  height: 150px;
+}
+.headInfo .ptext {
+  font-weight: 600;
+  color: #313131;
+  vertical-align: bottom;
+}
+.course {
+  padding-bottom: 20px;
+}
+.course .courseTitle span {
+  color: #313131;
+  font-weight: 600;
+}
+.course hr {
+  border: 1px solid #313131;
+}
+.course .school {
+  width: 600px;
+  display: flex;
+  justify-content: space-between;
+}
+.course .school span {
+  color: #313131;
+  font-weight: 600;
+}
+.skill .skillTitle span {
+  font-weight: 600;
+  color: #313131;
+}
+.skill hr {
+  border: 1px solid #313131;
+}
+.skill ol li {
+  margin-bottom: 5px;
+  color: #525252;
+}
+.project .projectTitle span {
+  color: #313131;
+  font-weight: 600;
+}
+.project hr {
+  border: 1px solid #000;
+}
+.project .time {
+  width: 600px;
+  display: flex;
+  justify-content: space-between;
+}
+.project .time span {
+  color: #313131;
+  font-weight: 600;
+}
+.project .content {
+  color: #525252;
+}
+.project .content p {
+  margin: 3px;
+}
+.project .content ul {
+  margin-top: 3px;
+}
+.practice .practiceTitle span {
+  font-weight: 600;
+  color: #313131;
+}
+.practice hr {
+  border: 1px solid #313131;
+}
