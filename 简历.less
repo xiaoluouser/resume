@@ -3,7 +3,14 @@
 
 .hr() {
     hr {
-        border: 1px solid rgb(49, 49, 49);
+        border: 1px solid @fontcolortitle;
+    }
+}
+
+.title {
+    span {
+        color: @fontcolortitle;
+        font-weight: 600;
     }
 }
 
@@ -36,19 +43,14 @@
     .ptext {
         font-weight: 600;
         color: @fontcolortitle ;
-        vertical-align:bottom;
+        vertical-align: bottom;
     }
 }
 
 .course {
     padding-bottom: 20px;
 
-    .courseTitle {
-        span {
-            color: @fontcolortitle;
-            font-weight: 600;
-        }
-    }
+    .title();
 
     .hr();
 
@@ -66,12 +68,7 @@
 }
 
 .skill {
-    .skillTitle {
-        span {
-            font-weight: 600;
-            color: @fontcolortitle;
-        }
-    }
+    .title();
 
     .hr();
 
@@ -84,16 +81,9 @@
 }
 
 .project {
-    .projectTitle {
-        span {
-            color: @fontcolortitle;
-            font-weight: 600;
-        }
-    }
 
-    hr {
-        border: 1px solid #000;
-    }
+    .title();
+    .hr();
 
     .time {
         width: 600px;
@@ -101,7 +91,6 @@
         justify-content: space-between;
 
         span {
-            //margin-right: 140px;
             color: @fontcolortitle;
             font-weight: 600;
         }
@@ -122,12 +111,8 @@
     }
 }
 
-.practice{
-    .practiceTitle{
-        span {
-            font-weight: 600;
-            color: @fontcolortitle;
-        }
-    }
+.practice {
+    .title();
+
     .hr();
 }

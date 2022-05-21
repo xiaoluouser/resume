@@ -1,3 +1,7 @@
+.title span {
+  color: #313131;
+  font-weight: 600;
+}
 * {
   font-family: Helvetica Neue, Helvetica, Arial, Microsoft Yahei, Hiragino Sans GB, Heiti SC, WenQuanYi Micro Hei, sans-serif;
   box-sizing: border-box;
@@ -25,7 +29,7 @@
 .course {
   padding-bottom: 20px;
 }
-.course .courseTitle span {
+.course span {
   color: #313131;
   font-weight: 600;
 }
@@ -41,9 +45,9 @@
   color: #313131;
   font-weight: 600;
 }
-.skill .skillTitle span {
-  font-weight: 600;
+.skill span {
   color: #313131;
+  font-weight: 600;
 }
 .skill hr {
   border: 1px solid #313131;
@@ -52,12 +56,12 @@
   margin-bottom: 5px;
   color: #525252;
 }
-.project .projectTitle span {
+.project span {
   color: #313131;
   font-weight: 600;
 }
 .project hr {
-  border: 1px solid #000;
+  border: 1px solid #313131;
 }
 .project .time {
   width: 600px;
@@ -77,9 +81,9 @@
 .project .content ul {
   margin-top: 3px;
 }
-.practice .practiceTitle span {
-  font-weight: 600;
+.practice span {
   color: #313131;
+  font-weight: 600;
 }
 .practice hr {
   border: 1px solid #313131;
