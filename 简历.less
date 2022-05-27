@@ -8,15 +8,22 @@
 }
 
 .title {
-    span {
+    .title {
         color: @fontcolortitle;
         font-weight: 600;
+        font-size: 20px;
     }
 }
 
 * {
     font-family: Helvetica Neue, Helvetica, Arial, Microsoft Yahei, Hiragino Sans GB, Heiti SC, WenQuanYi Micro Hei, sans-serif;
     box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 0;
 }
 
 .headInfo {
@@ -55,14 +62,26 @@
     .hr();
 
     .school {
+        height: 20px;
+        line-height: 20px;
         width: 600px;
         display: flex;
         justify-content: space-between;
 
         span {
-            //margin-right: 140px;
             color: @fontcolortitle;
             font-weight: 600;
+        }
+    }
+
+    .subject {
+        margin-top: 10px;
+        span {
+            color: @fontcolorcontent;
+            &:first-child {
+                color: @fontcolortitle;
+                font-weight: 600;
+            }
         }
     }
 }
@@ -86,6 +105,8 @@
     .hr();
 
     .time {
+        height: 20px;
+        line-height: 20px;
         width: 600px;
         display: flex;
         justify-content: space-between;
@@ -100,13 +121,22 @@
         color: @fontcolorcontent;
 
         p {
-            margin: 3px;
+            margin: 5px;
+
+            &:first-child {
+                margin-top: 10px;
+                margin-bottom: 10px;
+                font-weight: 500;
+                color: black;
+            }
         }
 
         ul {
             margin-top: 3px;
 
-            li {}
+            li {
+                margin: 5px;
+            }
         }
     }
 }
@@ -115,4 +145,20 @@
     .title();
 
     .hr();
+    .time {
+        height: 20px;
+        line-height: 20px;
+        width: 600px;
+        display: flex;
+        justify-content: space-between;
+
+        span {
+            color: @fontcolortitle;
+            font-weight: 600;
+        }
+    }
+    .content {
+        color: @fontcolorcontent;
+
+    }
 }

@@ -1,10 +1,16 @@
-.title span {
+.title .title {
   color: #313131;
   font-weight: 600;
+  font-size: 20px;
 }
 * {
   font-family: Helvetica Neue, Helvetica, Arial, Microsoft Yahei, Hiragino Sans GB, Heiti SC, WenQuanYi Micro Hei, sans-serif;
   box-sizing: border-box;
+}
+h1 {
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 0;
 }
 .headInfo {
   display: flex;
@@ -29,14 +35,17 @@
 .course {
   padding-bottom: 20px;
 }
-.course span {
+.course .title {
   color: #313131;
   font-weight: 600;
+  font-size: 20px;
 }
 .course hr {
   border: 1px solid #313131;
 }
 .course .school {
+  height: 20px;
+  line-height: 20px;
   width: 600px;
   display: flex;
   justify-content: space-between;
@@ -45,9 +54,20 @@
   color: #313131;
   font-weight: 600;
 }
-.skill span {
+.course .subject {
+  margin-top: 10px;
+}
+.course .subject span {
+  color: #525252;
+}
+.course .subject span:first-child {
   color: #313131;
   font-weight: 600;
+}
+.skill .title {
+  color: #313131;
+  font-weight: 600;
+  font-size: 20px;
 }
 .skill hr {
   border: 1px solid #313131;
@@ -56,14 +76,17 @@
   margin-bottom: 5px;
   color: #525252;
 }
-.project span {
+.project .title {
   color: #313131;
   font-weight: 600;
+  font-size: 20px;
 }
 .project hr {
   border: 1px solid #313131;
 }
 .project .time {
+  height: 20px;
+  line-height: 20px;
   width: 600px;
   display: flex;
   justify-content: space-between;
@@ -76,15 +99,39 @@
   color: #525252;
 }
 .project .content p {
-  margin: 3px;
+  margin: 5px;
+}
+.project .content p:first-child {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: 500;
+  color: black;
 }
 .project .content ul {
   margin-top: 3px;
 }
-.practice span {
+.project .content ul li {
+  margin: 5px;
+}
+.practice .title {
   color: #313131;
   font-weight: 600;
+  font-size: 20px;
 }
 .practice hr {
   border: 1px solid #313131;
+}
+.practice .time {
+  height: 20px;
+  line-height: 20px;
+  width: 600px;
+  display: flex;
+  justify-content: space-between;
+}
+.practice .time span {
+  color: #313131;
+  font-weight: 600;
+}
+.practice .content {
+  color: #525252;
 }
