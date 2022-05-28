@@ -61,7 +61,7 @@ h1 {
   color: #525252;
 }
 .course .subject span:first-child {
-  color: #313131;
+  color: #585858;
   font-weight: 600;
 }
 .skill .title {
@@ -134,4 +134,12 @@ h1 {
 }
 .practice .content {
   color: #525252;
+}
+.practice .content p {
+  margin: 10px;
+  line-height: 25px;
+}
+.practice .content p span {
+  color: #585858;
+  font-weight: 600;
 }
