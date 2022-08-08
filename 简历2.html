@@ -74,10 +74,11 @@
             </div>
             <hr>
             <ol>
-                <li>熟悉html、css、js，以及es6的新特性，通过mock辅助开发；</li>
-                <li>熟悉vue2全家桶，了解vue3，熟练使用less；</li>
-                <li>了解node，express的基本使用；</li>
-                <li>了解webpack的基本配置，以及git的基本使用。</li>
+                <li>熟悉html、css、js，以及<b>es6</b>的新特性，熟悉<b>原型链，class类，Promise</b>等知识；</li>
+                <li>熟悉<b>vue2全家桶</b>，了解vue3的setup，熟练使用<b>less</b>并结合ui组件库快速开发；</li>
+                <li>熟悉<b>react</b>，使用<b>hook</b>开发，react-redux管理状态，熟悉<b>组件间通信，高阶组件</b>等知识；</li>
+                <li>了解node模块化，<b>module</b>对象等，以及express的<b>路由和中间件</b>的概念和基本使用；</li>
+                <li>了解webpack基本核心概念，以及git的基本使用。通过<b>canvas</b>实现基本的数据可视化。</li>
             </ol>
         </div>
 
@@ -85,22 +86,35 @@
             <div class="title">
                 <i class="el-icon-s-data"></i>
                 <span>个人项目</span>
+                <p>项目地址: https://github.com/xiaoluouser</p>
             </div>
             <hr>
             <div class="time">
                 <span>2022/02-2022/04</span>
                 <span>V社区</span>
-                <span>个人开发</span>
+                <!-- <span>个人开发</span> -->
             </div>
             <div class="content">
-                <p>项目地址: https://github.com/xiaoluouser/community</p>
-                <p>项目介绍: 基于vue2的社区项目，实现了社区的基本功能</p>
-                <p>技术栈: Vue2全家桶+Element-ui+Less+Axios+Mock+Node/express+Mysql</p>
+                <p>项目介绍: 基于vue2的社区项目，实现了发布动态，上传图片，评论等基本社区功能。</p>
+                <p>技术栈: vue2全家桶、elementui、less、axios、express</p>
                 <ul>
-                    <li>对axios进行二次封装，通过mock辅助开发；</li>
-                    <li>实现了登录、注册以及个人中心相关信息的展示和修改；</li>
-                    <li>通过canvas优化向服务端发送图片数据时的请求速度；</li>
-                    <li>通过动画效果来优化用户的使用体验。</li>
+                    <li>对axios二次封装，使用mockjs模拟数据，使用vuex数据共享，通过动画优化用户的体验；</li>
+                    <li>通过express，结合token身份认证，实现登录、注册以及个人中心信息的上传和修改；</li>
+                    <li>使用canvas优化向服务端发送图片数据时的传输速度，通过列表的懒加载提高性能。</li>
+                </ul>
+            </div>
+            <hr class="separate">
+            <div class="time">
+                <span>2022/06-2022/07</span>
+                <span>todo</span>
+            </div>
+            <div class="content">
+                <p>项目介绍: 基于react hook的todo项目，后端通过node/express完成数据交互。</p>
+                <p>技术栈: react-routerV6、react-redux、antd、axios、less、canvas、node/express</p>
+                <ul>
+                    <li>通过yarn进行项目包管理，redux共享数据，引入wangEditor富文本，使用大量动画；</li>
+                    <li>高度封装Skin组件，实现复用和定制，使用高阶组件进行登录权限校验，虚拟列表；</li>
+                    <li>通过Echart，canvas实现基本的数据可视化，调用第三方天气及定位接口等。</li>
                 </ul>
             </div>
         </div>
@@ -112,22 +126,31 @@
             </div>
             <hr>
             <div class="time">
-                <span>2021/07-2021/08</span>
-                <span>暑期社会实践</span>
+                <span>2021/08-2021/09</span>
+                <span>“语音博物馆”项目</span>
                 <span>团队</span>
             </div>
             <div class="content">
-                <p><span>团队职责:</span> 后期技术支持。</p>
-                <p><span>项目背景:</span> 为了提升博物馆视听效果与互联网交互方向的互动知识展示，
-                    并与中国轻工业博物馆合作，助力中国轻工业博物馆信息化建设，讲好轻工业发展史中的红色故事。
+                <p>
+                    <span>项目介绍:</span>
+                    前端是基于原生JavaScript和bootstrap的项目，通过原生AJAX与后端交互
                 </p>
-                <p><span>项目简介:</span> 设计开发“声态”化、“码上”听中英双语实景讲解服务系统，
+                <p>
+                    <span>团队职责:</span>
+                    前端部分页面的搭建。
+                </p>
+                <ul>
+                    <li>负责编写一级页面藏品展示和引入swiper轮播图，
+                        以及二级详情页介绍藏品的文本、图片和audio。</li>
+                    <li>使用bootstrap快速搭建页面，使用Ajax给后端发送请求。</li>
+                </ul>
+                <!-- <p><span>项目简介:</span> 设计开发“声态”化、“码上”听中英双语实景讲解服务系统，
                     该系统目前已完成中国轻工业博物馆轻工发展历程展60件展品的智能
                     语音讲解制作，将实地参观与云端讲解相结合。
                 </p>
                 <p><span>个人收获:</span> 加强了与团队成员之间的合作意识，学习到了有关的知识，
                     提升了相关的技术。
-                </p>
+                </p> -->
             </div>
         </div>
     </body>

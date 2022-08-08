@@ -1,0 +1,185 @@
+.title .title {
+  margin-top: -5px;
+  margin-bottom: -5px;
+  color: #313131;
+  font-weight: 600;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+}
+* {
+  font-family: Helvetica Neue, Helvetica, Arial, Microsoft Yahei, Hiragino Sans GB, Heiti SC, WenQuanYi Micro Hei, sans-serif;
+  box-sizing: border-box;
+}
+h1 {
+  text-align: center;
+  font-weight: 500;
+  margin-top: -5px;
+  margin-bottom: -5px;
+}
+.headInfo {
+  display: flex;
+  justify-content: space-between;
+  height: 140px;
+  align-items: center;
+}
+.headInfo .line1 div,
+.headInfo .line2 div {
+  padding: 10px 0;
+  color: #525252;
+}
+.headInfo .avatar img {
+  margin-top: 15px;
+  width: 110px;
+  height: 150px;
+}
+.headInfo .ptext {
+  font-weight: 600;
+  color: #313131;
+  vertical-align: bottom;
+}
+.course {
+  padding-bottom: 20px;
+}
+.course .title {
+  margin-top: -5px;
+  margin-bottom: -5px;
+  color: #313131;
+  font-weight: 600;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+}
+.course hr {
+  border: 1px solid #313131;
+}
+.course .school {
+  height: 20px;
+  line-height: 20px;
+  width: 600px;
+  display: flex;
+  justify-content: space-between;
+}
+.course .school span {
+  color: #313131;
+  font-weight: 600;
+}
+.course .subject {
+  margin-top: 10px;
+}
+.course .subject span {
+  color: #525252;
+}
+.course .subject span:first-child {
+  color: #585858;
+  font-weight: 600;
+}
+.skill .title {
+  margin-top: -5px;
+  margin-bottom: -5px;
+  color: #313131;
+  font-weight: 600;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+}
+.skill hr {
+  border: 1px solid #313131;
+}
+.skill ol li {
+  margin-bottom: 5px;
+  color: #525252;
+}
+.project .title {
+  margin-top: -5px;
+  margin-bottom: -5px;
+  color: #313131;
+  font-weight: 600;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  height: 30px;
+  vertical-align: bottom;
+}
+.project .title p {
+  margin-bottom: 10px;
+  margin-left: 100px;
+  font-size: 14px;
+  color: #959595;
+}
+.project hr {
+  border: 1px solid #313131;
+}
+.project .time {
+  height: 20px;
+  line-height: 20px;
+  width: 600px;
+  display: flex;
+  justify-content: space-between;
+}
+.project .time span {
+  color: #313131;
+  font-weight: 600;
+}
+.project .content {
+  color: #525252;
+}
+.project .content p {
+  margin-left: 5px;
+  margin-top: -5px;
+  margin-bottom: 5px;
+}
+.project .content p:first-child {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-weight: 500;
+  color: black;
+}
+.project .content ul {
+  margin-top: 3px;
+}
+.project .content ul li {
+  margin: 5px;
+}
+.project .separate {
+  width: 98%;
+  border: 1px #e9e9e9 solid;
+}
+.practice .title {
+  margin-top: -5px;
+  margin-bottom: -5px;
+  color: #313131;
+  font-weight: 600;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+}
+.practice hr {
+  border: 1px solid #313131;
+}
+.practice .time {
+  height: 20px;
+  line-height: 20px;
+  width: 600px;
+  display: flex;
+  justify-content: space-between;
+}
+.practice .time span {
+  color: #313131;
+  font-weight: 600;
+}
+.practice .content {
+  color: #525252;
+}
+.practice .content p {
+  margin-top: 5px;
+  margin-bottom: 0px;
+  line-height: 25px;
+}
+.practice .content p span {
+  color: #585858;
+  font-weight: 600;
+}
+.practice .content ul {
+  margin-top: 5px;
+}
